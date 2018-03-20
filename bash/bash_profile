@@ -8,6 +8,9 @@ export GPG_TTY=$(tty)
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+# Older version of Elasticsearch
+export PATH="/usr/local/opt/elasticsearch@5.6/bin:$PATH"
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # https://openradar.appspot.com/27348363

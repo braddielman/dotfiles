@@ -64,21 +64,20 @@ function current_ruby() {
 }
 
 set_prompts() {
-    local black=""
-    local blue=""
-    local cyan=""
-    local green=""
-    local purple=""
-    local red=""
-    local reset=""
-    local white=""
-    local yellow=""
-
     local hostStyle=""
     local userStyle=""
 
-    reset="\e[0m"
+    local reset=""
+    local black=""
+    local red=""
+    local green=""
+    local yellow=""
+    local blue=""
+    local purple=""
+    local cyan=""
+    local white=""
 
+    reset="\e[0m"
     black="\e[1;30m"
     red="\e[1;31m"
     green="\e[1;32m"

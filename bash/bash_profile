@@ -19,10 +19,6 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export PATH="$PATH:`yarn global bin`"
 export GPG_TTY=$(tty)
 
-
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
 # Load rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
